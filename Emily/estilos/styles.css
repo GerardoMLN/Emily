@@ -20,8 +20,8 @@ header{
 }
 
 .imgPaginas{
-    height: 625px;
-    width: 750px;
+    height: 675px;
+    width: 725px;
     opacity: 85%;
 }
 
@@ -50,12 +50,22 @@ main{
 
 #izquierda{
     grid-area: izquierda;
+    text-align: center;
+    margin-top: 35px;
+}
+
+#izquierdoimg{
+    grid-area: izquierda;
 }
 
 #derecha{
     grid-area: derecha;
     text-align: center;
     margin-top: 35px;
+}
+
+#derechoimg{
+    grid-area: derecha;
 }
 
 nav{
@@ -88,4 +98,9 @@ h6{
 
 body{
     background-color: black;
+}
+
+#nombres{
+    text-align: center;
+    color: whitesmoke;
 }
